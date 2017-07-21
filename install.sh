@@ -61,6 +61,7 @@ start() {
     MINGW*) os=windows ;;
   esac
   case "$arch" in
+    *aarch64*) arch=aarch64 ;;
     *armv6l*) arch=armv6l ;;
     *armv7l*) arch=armv7l ;;
     *x86_64*) arch=x64 ;;
